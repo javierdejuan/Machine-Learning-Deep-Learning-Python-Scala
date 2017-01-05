@@ -1,13 +1,5 @@
 <!-- R Commander Markdown Template -->
 
-Práctica Estadística MASTER DATAHACK
-=======================
-
-###  Profesor: Ivan Guerrero
-###  Alumno: Javier de Juan
-
-### 2016-10-15
-
 ### Enunciado
 Se pretende realizar un análisis descriptivo de la actividad que siguen las ventas de
 dispositivos móviles y electrónicos de una franquicia en España (toda la información
