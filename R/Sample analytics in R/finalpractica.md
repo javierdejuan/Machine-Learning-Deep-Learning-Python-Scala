@@ -1,21 +1,10 @@
 <!-- R Commander Markdown Template -->
-
-Práctica Estadística MASTER DATAHACK
-=======================
-
-###  Profesor: Ivan Guerrero
-###  Alumno: Javier de Juan
-
-### 2016-10-15
-
-### Enunciado
++
 Se pretende realizar un análisis descriptivo de la actividad que siguen las ventas de
 dispositivos móviles y electrónicos de una franquicia en España (toda la información
 está desglosada por provincias en el archivo Excel correspondiente).
 
 
-
-### Respuesta
 
 La práctica va a desarrollarse en R y en Excel. En el Excel adjunto muestro el valor de los estadísticos y correlaciones al ser mas amigable su formato que el que arroja R.
 
