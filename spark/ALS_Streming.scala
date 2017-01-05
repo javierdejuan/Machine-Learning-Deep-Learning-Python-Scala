@@ -89,18 +89,18 @@ val ratings_ = data.map(_.split("::") match { case Array(user, item, rate, times
 })
 
 
-//Usa la función randomSplit
+//splitting into train an test
 val particion=ratings_.randomSplit(Array(0.80, 0.20))
 
-//En el split(0) que te devuelve randomSplit tienes el RDD de training y el en 1 el de test
+//get training and test datasets
 val training = particion(0)
 val test = particion(1)
 
-//elementos de training y test
-println("Elementos en training:" + training.count())
-println("Elementos en test:" + test.count())
+//print counts
+println("Elements in training:" + training.count())
+println("Elements in test:" + test.count())
 
-//TIP: Para mejorar el rendimiento del proceso cachea los RDDs
+//memory improvements
 training.cache()
 test.cache()
 
@@ -179,9 +179,13 @@ Show_titles: (userId: Int)Unit
 |    681|Clean Slate (Coup...|
 +-------+--------------------+
 
+/*------------------------------------------------------------------------------------------------------*/
+/*              Streaming process                                                                       */
+/*------------------------------------------------------------------------------------------------------*/
 
 import java.io.IOException
-//iter through DStream[string] and collect string, then transform it into an int
+
+//iter through DStream[string] and collect string, then transform it into an int                      
 def recomend(x:Array[String]):Unit=
 {
     //para cada string del array
@@ -200,22 +204,22 @@ def recomend(x:Array[String]):Unit=
 }
 
 
-// Creamos un StreamingContext local con 2 threads y un intervalo batch de 5 segundos.
 
 import org.apache.spark._
 import org.apache.spark.streaming._
 import scala.collection.mutable.ArrayBuffer
 
-// creating a streming context..
+// creating a streming context whith a batch of 10 seconds
 val ssc = new StreamingContext(sc, Seconds(10))
 
+//process manual input from a standar Unix Socket
 val lines = ssc.socketTextStream("localhost", 9999)
 val words = lines.flatMap(_.split(" "))
 val arr = new ArrayBuffer[String]()
 
 words.print()
 
-//connecting streming with ALS recommend products
+//connecting straeming with ALS recommend products
 words.foreachRDD((x:RDD[String])=> recomend(x.collect()))
 
 // start listener
