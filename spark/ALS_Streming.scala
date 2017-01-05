@@ -173,7 +173,7 @@ Show_titles: (userId: Int)Unit
 |product|               Title|
 +-------+--------------------+
 |    572|Foreign Student (...|
-|   2499|God Said 'Ha!' (1...|
+|   2499|God Said Ha!   (1...|
 |     59|Confessional, The...|
 |   3338|For All Mankind (...|
 |    681|Clean Slate (Coup...|
