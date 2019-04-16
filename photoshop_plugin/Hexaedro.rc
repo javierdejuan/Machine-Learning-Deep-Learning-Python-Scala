@@ -1,0 +1,104 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#define PLUGINNAME "Dissolve Sample Plug-In"
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""Hexaedro.pipl""\r\n"
+    "#include ""About.rc""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+DISSOLVEDIALOG DIALOGEX 0, 0, 206, 130
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hexaedro"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+	DEFPUSHBUTTON   "Aceptar", IDOK, 7, 107, 50, 14
+	PUSHBUTTON      "Cancelar", IDCANCEL, 150, 107, 50, 14
+	RADIOBUTTON        "Front", 12, 140, 30, 41, 8, BS_NOTIFY | WS_GROUP | WS_TABSTOP
+	RADIOBUTTON        "Back", 13, 140, 40, 41, 8, BS_NOTIFY | WS_GROUP | WS_TABSTOP
+	RADIOBUTTON        "Right", 14, 140, 50, 41, 8, BS_NOTIFY | WS_GROUP | WS_TABSTOP
+	RADIOBUTTON        "Left", 15, 140, 60, 41, 8, BS_NOTIFY | WS_GROUP | WS_TABSTOP
+	RADIOBUTTON        "Top", 16, 140, 70, 41, 8, BS_NOTIFY | WS_GROUP | WS_TABSTOP
+	RADIOBUTTON        "Bottom", 17, 140, 80, 41, 8, BS_NOTIFY | WS_GROUP | WS_TABSTOP
+	GROUPBOX        "Faces to process", 106, 120, 17, 70, 80, BS_NOTIFY | WS_GROUP | WS_TABSTOP
+	LTEXT           "Perfoms Anamorphic Projections of points located outside Hexahedrum faces.\n\n(Req: Image Size must be multiple of 1024 pixels.)\n\n© VR-Illustrationsn\n 2018 All Rights Reserved", 115, 17, 16, 88, 84
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+"DISSOLVEDIALOG", DIALOG
+	BEGIN
+		LEFTMARGIN, 7
+		RIGHTMARGIN, 200
+		TOPMARGIN, 7
+		BOTTOMMARGIN, 121
+	END
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "Hexaedro.pipl"
+#include "About.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

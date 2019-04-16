@@ -1,0 +1,161 @@
+#define RSCL32(a,b,c,d)   0x ## c ## d, 0x ## a ## b
+#define LC(a,b,c,d)       #d, #c, #b, #a
+#define RSCS32(a)         a, 0
+
+STRINGTABLE	DISCARDABLE
+BEGIN
+	16000,
+	"Hexaedrum\n\nVersion CC 2017 Release 1 (10/11/2016)\nCopyright 2018-2016, Adobe Systems Incorporated.\nAll Rights Reserved.\n\nAn example plug-in filter module for Adobe Photoshop®."
+END
+
+16000  PiPL  DISCARDABLE
+BEGIN
+	1, /* First byte must always be 1 */
+	0L, /* kCurrentPiPL Version */
+	   12L, /* Property count */
+	"MIB8", /* '8BIM' */
+	"dnik", /* 'kind' PIKindProperty */
+	0L, /* Index */
+	    4L, /* Length */
+	"MFB8", /* '8BFM' Photoshop Filter plug-in */
+
+	"MIB8", /* '8BIM' */
+	"eman", /* 'name' PINameProperty */
+	0L, /* Index */
+	   16L, /* Length */
+	"\014Hexaedrum...\0\0\0", 
+
+	"MIB8", /* '8BIM' */
+	"gtac", /* 'catg' PICategoryProperty */
+	0L, /* Index */
+	   20L, /* Length */
+	"\020VR Illustrations\0\0\0", 
+
+	"MIB8", /* '8BIM' */
+	"srev", /* 'vers' PIVersionProperty */
+	0L, /* Index */
+	    4L, /* Length */
+	0X00040000L, /* (Major << 16) | Minor */
+
+	"MIB8", /* '8BIM' */
+	"tpmc", /* 'cmpt' PIComponent */
+	0L, /* Index */
+	   16L, /* Length */
+	1179648L, /* Version */
+	"Hexaedrum\0\0\0", /* Unique ID */
+
+	"MIB8", /* '8BIM' */
+	"4668", /* '8664' PIWin64X86CodeProperty */
+	0L, /* Index */
+	   12L, /* Length */
+	"PluginMain\0\0", 
+
+	"MIB8", /* '8BIM' */
+	"edom", /* 'mode' SupportedModes */
+	0L, /* Index */
+	    4L, /* Length */
+	0XC05F, /* Supported modes */
+	0, /* Reserved */
+
+	"MIB8", /* '8BIM' */
+	"mtsh", /* 'hstm' PITerminology */
+	0L, /* Index */
+	   56L, /* Length */
+	0L, /* Version */
+	"1kds", /* Class ID */
+	"1kds", /* Event ID */
+	16000, /* Terminology ID */
+	"7ae026e2-3cf9-4770-8694-cfcf78f4b9a9\0\0\0\0", /* Unique string */
+	    0, /* Padding */
+
+	"MIB8", /* '8BIM' */
+	"lbne", /* 'enbl' EnableInfoProperty */
+	0L, /* Index */
+	  188L, /* Length */
+	"in (PSHOP_ImageMode, RGBMode, GrayScaleMode,CMYKMode, HSLMode, HSBMode, MultichannelMode,DuotoneMode, LabMode, RGB48Mode, Gray16Mode) ||PSHOP_ImageDepth == 16 ||PSHOP_ImageDepth == 32\0\0\0\0\0", 
+
+	"MIB8", /* '8BIM' */
+	"23sm", /* 'ms32' PlugInMaxSize */
+	0L, /* Index */
+	    8L, /* Length */
+	2000000L, 
+	2000000L, 
+
+	"MIB8", /* '8BIM' */
+	"yllf", /* 'flly' PIFilterLayerSupport */
+	0L, /* Index */
+	    4L, /* Length */
+	0X00000080L, 
+
+	"MIB8", /* '8BIM' */
+	"icif", /* 'fici' PIFilterCaseInfoProperty */
+	0L, /* Index */
+	   28L, /* Length */
+	0X00060404L, 
+	0X000E0404L, 
+	0X000E0404L, 
+	0X00060404L, 
+	0X000F0404L, 
+	0X00070404L, 
+	0X000E0404L, 
+
+END
+
+16000  aete  DISCARDABLE
+BEGIN
+	1, /* First byte must always be 1 */
+	0X0001, /* majorVersion|minorVersion */
+	0, /* language */
+	0, /* script */
+	    1, /* Suite Count */
+	"\020VR Illustrations", 
+	"\026Adobe example plug-ins", 
+	"1kds", /* Suite ID */
+	1, /* Suite level */
+	1, /* Suite version */
+	    1, /* Event Count */
+	"\011Hexaedrum", 
+	"\012360 Filter", 
+	"1kds", /* Event class */
+	"1kds", /* Descriptor type */
+	"llun", /* Reply type */
+	"\000", 
+	000000, /* Flags */
+	"RmI#", /* Direct param type */
+	"\000", 
+	0XB000, /* Direct params */
+	    3, /* Parameter Count */
+	"\006amount", 
+	"tnmA", 
+	"buod", 
+	"\017dissolve amount", 
+	000000, /* Param flags */
+	"\013disposition", 
+	"Psid", 
+	"Doom", 
+	"\024dissolve disposition", 
+	0X2000, /* Param flags */
+	"\020ignore selection", 
+	"Sngi", 
+	"loob", 
+	"\023filter entire image", 
+	000000, /* Param flags */
+	    0, /* Class count */
+	0, /* Number of comparison ops (always 0) */
+	    1, /* Enum count */
+	"Doom", 
+	    4, /* Alias count */
+	"\005clear", 
+	"0Dom", 
+	"\014clear headed", 
+	"\004cool", 
+	"1Dom", 
+	"\015got the blues", 
+	"\003hot", 
+	"2Dom", 
+	"\011red-faced", 
+	"\004sick", 
+	"3Dom", 
+	"\017green with envy", 
+END
+
