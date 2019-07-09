@@ -2,7 +2,10 @@
 
 The equirectangular grid is used to build panoramic images as theses ones:
 <p align="center">
-  <img width="400" height="200" alt="cocina" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/cocina.jpg">
+  <img width="400" height="200"  src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/cocina.jpg">
+</p>
+<p align="center">
+hola
 </p>
 
 <p align="center">
