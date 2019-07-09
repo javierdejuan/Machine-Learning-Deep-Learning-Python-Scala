@@ -39,7 +39,7 @@ The differential equation of geodesics can be then obtained in a very intuitive 
   <img width="189" height="55" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/ecuacion%20diferencial%20geodesicas.png">
 </p>
 The particule, then, closes the maximum circle arriving at destination in the same direction as in the departure, and with the same speed.
-(Note: Christoffel Symbols and Riemann's Metric Tensor are needed to understand this differential equation)
+(Note: [Christoffel Symbols](https://www.youtube.com/watch?v=dLzoQr6WZT4) and Riemann's Metric Tensor are needed to understand this differential equation)
 
 ## Implementation of the script
 
