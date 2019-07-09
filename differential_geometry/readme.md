@@ -43,7 +43,7 @@ The particule, then, closes the maximum circle arriving at destination in the sa
 
 ## Implementation of the script
 
-This code computes geodesic's differential equation in a 2-sphere. as shown befor. For each iteration of the loop, the initial vector is updgrade with 15 degrees.
+This code computes geodesic's differential equation in a 2-sphere. as shown before. For each iteration of the loop, the initial vector is updgrade with 15 degrees, starting with a 0 degrees angle with the equator maximum circle.
 We have used an Odeint object for the integration of the geodesic's differential equation.
 Parallel transport is then confirmed since the ending vector directions equals the starting direction.
 <p align="center">
