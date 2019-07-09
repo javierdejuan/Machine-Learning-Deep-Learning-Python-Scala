@@ -39,20 +39,26 @@ The differential equation of geodesics can be then obtained in a very intuitive 
   <img width="189" height="55" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/ecuacion%20diferencial%20geodesicas.png">
 </p>
 The particule, then, closes the maximum circle arriving at destination in the same direction as in the departure, and with the same speed.
-Note: [video](https://www.youtube.com/watch?v=dLzoQr6WZT4) and Riemann's Metric Tensor are needed to understand this differential equation
+Note: [Christoffel Symbols](https://www.youtube.com/watch?v=dLzoQr6WZT4) and Riemann's Metric Tensor are needed to understand this differential equation
 
 ## Implementation of the script
 
 This code computes geodesic's differential equation in a 2-sphere. as shown before. For each iteration of the loop, the initial vector is updgrade with 15 degrees, starting with a 0 degrees angle with the equator maximum circle.
 We have used an Odeint object for the integration of the geodesic's differential equation.
 Parallel transport is then confirmed since the ending vector directions equals the starting direction.
+
+In this very first image we just cycle between 0 and 180 degrees, we then obtain the geodesic meeting the constraints exposed below:
 <p align="center">
   <img width="460" height="300" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/Equirectangular.png">
 </p>
 <p align="center">
+
+Here, we cycle through -180 and 180 to have the simetric representation of the geodesics:
   <img width="460" height="300" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/equirectangular%20un%20solo%20foco.png">
 </p>
 
+
+And finally, to obtain something more close to the equirectangular grid, we add another "focus" point 90 degrees away from the first one:
 <p align="center">
   <img width="460" height="300" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/equirectangular%20dos%20focos.png">
 </p>
