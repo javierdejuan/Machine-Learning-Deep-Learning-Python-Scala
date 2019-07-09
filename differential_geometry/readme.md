@@ -51,9 +51,10 @@ In this very first image we just cycle between 0 and 180 degrees, we then obtain
 <p align="center">
   <img width="460" height="300" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/Equirectangular.png">
 </p>
-<p align="center">
+
 
 Here, we cycle through -180 and 180 to have the simetric representation of the geodesics:
+<p align="center">
   <img width="460" height="300" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/equirectangular%20un%20solo%20foco.png">
 </p>
 
