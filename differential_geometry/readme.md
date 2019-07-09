@@ -5,11 +5,14 @@ The equirectangular grid is used to build panoramic images as theses ones:
   <img width="400" height="200"  src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/cocina.jpg">
 </p>
 <p align="center">
-hola
+Panoramic view of an appartement
 </p>
 
 <p align="center">
   <img width="400" height="200" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/mapamundi.jpg">
+</p>
+<p align="center">
+mapamundi
 </p>
 
 
@@ -18,6 +21,9 @@ WIth the correct viewer, this images can then be shown in a [360](https://veer.t
 
 <p align="center">
   <img width="400" height="200" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/grid%20web.png">
+</p>
+<p align="center">
+Equirectangular grid
 </p>
 
 A detailed explanation of the foundatinos of the Equirectangular grid can be fond [here](https://artbellinsky.com/curved-drawing-lessons-2-the-spherical-geometry/). In a glimpse, the equirectangular grid is nothing but the register of the lattitude and longitude angles in a cartesian plane where the vertical axis is the latitude and the horizontal axis is the longitude.
