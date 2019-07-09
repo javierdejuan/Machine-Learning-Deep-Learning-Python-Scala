@@ -38,7 +38,7 @@ The differential equation of geodesics can be then obtained in a very intuitive 
 <p align="center">
   <img width="189" height="55" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/ecuacion%20diferencial%20geodesicas.png">
 </p>
-
+(Note: Christoffel Symbols and Riemann's Metric Tensor are needed to understand this differential equation)
 
 
 This code computes geodesic's differential equation in a 2-sphere. For each iteration of the loop, the initial vector is updgrade.
