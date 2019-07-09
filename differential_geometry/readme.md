@@ -1,4 +1,11 @@
 ## How to build an Equirectangular Grid
+
+The equirectangular grid is used to build panoramic images as theses ones:
+WIth the correct viewer, this images can then be shown in a 360 degrees environnement:
+<p align="center">
+  <img width="400" height="https://veer.tv/photos/improved-street-jazz-concert-180510">
+</p>
+
 <p align="center">
   <img width="400" height="200" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/grid%20web.png">
 </p>
