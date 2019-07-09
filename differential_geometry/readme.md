@@ -53,3 +53,6 @@ Parallel transport is then confirmed since the ending vector directions equals t
   <img width="460" height="300" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/equirectangular%20un%20solo%20foco.png">
 </p>
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/equirectangular%20dos%20focos.png">
+</p>
