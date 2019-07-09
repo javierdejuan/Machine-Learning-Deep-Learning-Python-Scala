@@ -17,6 +17,8 @@ WIth the correct viewer, this images can then be shown in a [360](https://veer.t
   <img width="400" height="200" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/grid%20web.png">
 </p>
 
+A detailed explanation of the Equirectgangular grid can be fond [here](https://artbellinsky.com/curved-drawing-lessons-2-the-spherical-geometry/)
+
 
 
 ## Geodesics in the 2-sphere
