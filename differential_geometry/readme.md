@@ -1,6 +1,6 @@
 ## How to build an Equirectangular Grid
 <p align="center">
-  <img width="400" height="200" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/equirectangular%20equiangular%2075.jpg">
+  <img width="400" height="200" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/grid%20web.png">
 </p>
 
 
