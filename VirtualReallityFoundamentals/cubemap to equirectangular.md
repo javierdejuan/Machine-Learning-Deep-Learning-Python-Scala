@@ -27,7 +27,7 @@ Cubemap Hand Illustration
 </p>
 
 
-Una vez tenemos el cubemap, debemos convertirlo a un formato equirectangular, que es el formato que usan los viewer de 360 mas habituales.
+Once we have our cubemap, we need to transform it into an Equirectangular format, in order to be represented as a 360º image in the most popular panoramic viwers.
 
 ## conversion from cubemap to equirectangular
 
