@@ -72,4 +72,3 @@ And finally, to obtain something more close to the equirectangular grid, we add 
 <p align="center">
 Equirectangular Grid from Geodesics Integration.
 </p>
-the complete script can be found [here](https://github.com/javierdejuan/stuff/blob/master/differential_geometry/geodesicas.py)
