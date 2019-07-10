@@ -1,5 +1,12 @@
 ## Cubemap, an alternative to equirectangular grid
 
+<p align="center">
+  <img width="400" height="200" src="https://github.com/javierdejuan/stuff/blob/master/VirtualReallityFoundamentals/code/hexaedro%20equiangular.jpg">
+</p>
+<p align="center">
+Cubemap grid
+</p>
+
 An easy way to build a panoramic illustration is through a cubemap.
 
 This simplification of the sphere in 6 sides, can give very good results in some cases, where the objects represented are far enough away 
