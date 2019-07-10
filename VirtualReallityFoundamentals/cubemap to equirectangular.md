@@ -1,7 +1,7 @@
 ## Cubemap, an alternative to equirectangular grid
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/javierdejuan/stuff/blob/master/VirtualReallityFoundamentals/code/hexaedro%20equiangular.jpg">
+  <img width="400" height="300" src="https://github.com/javierdejuan/stuff/blob/master/VirtualReallityFoundamentals/code/hexaedro%20equiangular.jpg">
 </p>
 <p align="center">
 Cubemap grid
