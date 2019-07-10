@@ -28,7 +28,7 @@ Equirectangular grid
 
 A detailed explanation of the foundations of the Equirectangular grid can be fond [here](https://artbellinsky.com/curved-drawing-lessons-2-the-spherical-geometry/). In a glimpse, the equirectangular grid is nothing but the register of the lattitude and longitude angles in a cartesian plane where the vertical axis is the latitude and the horizontal axis is the longitude. The curves inside the equirectangular grid are then Geodesics in a sphere. Those geodesics describe maximum circles within a sphere. 
 
-The purpose of this exercise is to code a script which will calculates these geodesics curces. We need then a mathematical model for the geodesics in a speher. There are many ways to model this problem, here we have chosen to introduce some basic ideas in Riemanm's Geometry because of Riemann's contribution to the formalisation of curved spaces. 
+The purpose of this exercise is to code a script which will calculates these geodesics curves. We need then a mathematical model for the geodesics in a sphere. There are many ways to model this problem, here we have chosen to apply some basic concepts on Differential Geometry because of Riemann's contribution to the formalisation of curved spaces. 
 
 
 ## Geodesics in the 2-sphere
@@ -39,6 +39,7 @@ The differential equation of geodesics can be then obtained in a very intuitive 
   <img width="189" height="55" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/ecuacion%20diferencial%20geodesicas.png">
 </p>
 The particule, then, closes the maximum circle arriving at destination in the same direction as in the departure, and with the same speed.
+[here](www.elmundo.es)
 Note: [Christoffel Symbols](https://www.youtube.com/watch?v=dLzoQr6WZT4) and Riemann's Metric Tensor are needed to understand this differential equation
 
 ## Implementation of the script
