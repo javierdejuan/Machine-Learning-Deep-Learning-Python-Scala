@@ -65,3 +65,7 @@ And finally, to obtain something more close to the equirectangular grid, we add 
 <p align="center">
   <img width="460" height="300" src="https://github.com/javierdejuan/stuff/blob/master/differential_geometry/equirectangular%20dos%20focos.png">
 </p>
+
+<p align="center">
+Equirectangular Grid from Geodesics Integration.
+</p>
