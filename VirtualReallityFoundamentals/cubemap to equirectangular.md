@@ -44,5 +44,8 @@ The algorithm iterates through the equirectangular file, then, builds a unitary 
 then finds the intersection of this ray within the cubemap.
 Finaly, the scripts copies the pixel found to the its location in the equirectangular file.
 
+The script assumes the input file is called "cubemap.png" and this file must have a 4:3 ratio. It then produces an output file called "equirectangular.png"
+
+
 
 
