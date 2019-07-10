@@ -35,11 +35,11 @@ Una vez tenemos el cubemap, debemos convertirlo a un formato equirectangular, qu
   <img width="400" height="200" src="https://github.com/javierdejuan/stuff/blob/master/VirtualReallityFoundamentals/code/marche%20des%20halles%20angouleme.jpg">
 </p>
 <p align="center">
-Cubemap Hand Illustration
+Equirectangular transformation from given cubemap
 </p>
 
 The following scripts converts a cubemap to an equirectangular. 
-You can find the full script here.
+You can find the full script [here](https://github.com/javierdejuan/stuff/blob/master/VirtualReallityFoundamentals/code/HexaedroToEquirectPy.py).
 
 In order to avoid interpolation in the final equirectgangular, we have choosen a reverse method to transform the cubemap.
 The algorithm iterates through the equirectangular file, then, builds a unitary vector of the given point with its latitude and longitude and 
