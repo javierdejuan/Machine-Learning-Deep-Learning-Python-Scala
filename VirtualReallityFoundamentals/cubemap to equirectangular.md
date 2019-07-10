@@ -20,8 +20,7 @@ In practice, a draughtman needs to rotate 90 degrees in latitude or longitude fr
 
 
 <p align="center">
-  <img width="400" height="300" src="https://github.com/javierdejuan/stuff/blob/master/VirtualReallityFoundamentals/code/marche%20des%20halles%20angouleme%20Hexaedro.png
-">
+  <img width="400" height="300" src="https://github.com/javierdejuan/stuff/blob/master/VirtualReallityFoundamentals/code/marche%20des%20halles%20angouleme%20Hexaedro.png">
 </p>
 <p align="center">
 Cubemap Hand Illustration
