@@ -31,6 +31,15 @@ Una vez tenemos el cubemap, debemos convertirlo a un formato equirectangular, qu
 
 ## conversion from cubemap to equirectangular
 
+<p align="center">
+  <img width="400" height="300" src="https://github.com/javierdejuan/stuff/blob/master/VirtualReallityFoundamentals/code/marche%20des%20halles%20angouleme.jpg">
+</p>
+<p align="center">
+Cubemap Hand Illustration
+</p>
+
+
+https://github.com/javierdejuan/stuff/blob/master/VirtualReallityFoundamentals/code/marche%20des%20halles%20angouleme.jpg
 The following scripts converts a cubemap to an equirectangular. 
 You can find the full script here.
 
