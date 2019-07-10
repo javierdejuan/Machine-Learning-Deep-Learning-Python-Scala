@@ -18,9 +18,15 @@ In contrast, using the cube map, we only need to make 6 drawings, each one in a 
 Each of this drawings represents the intersection of the world with each side of the cubemap.
 In practice, a draughtman needs to rotate 90 degrees in latitude or longitude from his initial point of view, and then draw what he sees in front of him.
 
-ejemplo de cubemap
 
-cuadrilla de cubemap
+<p align="center">
+  <img width="400" height="300" src="https://github.com/javierdejuan/stuff/blob/master/VirtualReallityFoundamentals/code/marche%20des%20halles%20angouleme%20Hexaedro.png
+">
+</p>
+<p align="center">
+Cubemap Hand Illustration
+</p>
+
 
 Una vez tenemos el cubemap, debemos convertirlo a un formato equirectangular, que es el formato que usan los viewer de 360 mas habituales.
 
