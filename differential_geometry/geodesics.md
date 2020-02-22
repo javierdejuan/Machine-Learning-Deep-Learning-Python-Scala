@@ -1,5 +1,5 @@
 ## How to build an Equirectangular Grid
-the complete script in Python can be found [here](https://github.com/javierdejuan/stuff/blob/master/differential_geometry/geodesicas.py)
+The complete script in Python can be found [here](https://github.com/javierdejuan/stuff/blob/master/differential_geometry/geodesicas.py)
 
 
 <p align="center">
